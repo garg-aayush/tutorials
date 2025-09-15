@@ -1,0 +1,5 @@
+# Ignore spec story files
+**/.specstory/
+
+# Ignore cursor index files
+**/.cursorindexingignore
