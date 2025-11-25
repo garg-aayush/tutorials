@@ -19,18 +19,18 @@
   - `uv cache clean` removes everything in the cache (please be careful with this)
 
 -  Define dependencies directly in your script using uv’s inline metadata block
-  - Allows running standalone scripts without a separate `requirements.txt` and keeps dependencies near the code that uses them
-  ```python
-  #!/usr/bin/env python3
-  # /// script
-  # requires-python = ">=3.10"
-  # dependencies = [
-  #     "pillow>=10.0.0",
-  #     "google-genai>=1.0.0",
-  # ]
-  # ///
-  "Python code..."
-  ```
+    - Allows running standalone scripts without a separate `requirements.txt` and keeps dependencies near the code that uses them
+      ```python
+      #!/usr/bin/env python3
+      # /// script
+      # requires-python = ">=3.10"
+      # dependencies = [
+      #     "pillow>=10.0.0",
+      #     "google-genai>=1.0.0",
+      # ]
+      # ///
+      "Python code..."
+      ```
 
 - format the files using ruff or black
   ```
