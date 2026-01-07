@@ -168,3 +168,7 @@ uv run scripts/image_edit.py input.png -o output.jpg \
     --width 800 \
     --pad 20 --pad-color white
 ```
+
+## Important Notes
+
+- **Output filename**: Always use a different output filename than the input to avoid overwriting the original. A good practice is to append a descriptive suffix to the input filename (e.g., `image.png` → `image_rotated.png`, `photo.jpg` → `photo_resized.jpg`).
