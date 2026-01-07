@@ -1,11 +1,11 @@
 ---
 name: basic-image-editing
-description: Basic image editing operations including rotation, flipping, resizing, transparency handling, format conversion, padding, cropping, file size reduction, metadata retrieval, grayscale conversion, alpha mask extraction, alpha blending, and auto-cropping transparent borders. Use when Claude needs to perform image transformations such as rotating images by any angle, flipping horizontally or vertically, resizing with flexible dimension handling, removing or replacing transparency, converting between formats (JPEG, PNG, WebP, TIFF, HEIC), adding padding with solid colors or edge replication, cropping from any side, reducing file size to a target, getting image metadata, converting to grayscale, extracting alpha masks, applying masks via alpha blending, or auto-cropping transparent borders.
+description: Image manipulation tool for resizing, rotation, flipping, cropping, padding, format conversion (JPEG/PNG/WebP/TIFF/HEIC), transparency operations (remove/replace/extract/blend), grayscale conversion, auto-cropping borders, and file size optimization. Use when users need to transform, convert, or optimize images.
 ---
 
 # Basic Image Editing
 
-Perform image transformations using `scripts/image_edit.py`.
+Image manipulation tool supporting transformations, format conversions, transparency operations, and optimization. Useful for resizing images, removing backgrounds, converting formats, reducing file sizes, and preparing images for web or applications.
 
 ## Quick Start
 
